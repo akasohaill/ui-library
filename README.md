@@ -1,2 +1,11 @@
-# ui-library
-It is an ui library created using lerna and snabbdom
+# `ui-library`
+
+> TODO: description
+
+## Usage
+
+```
+const uiLibrary = require('ui-library');
+
+// TODO: DEMONSTRATE API
+```

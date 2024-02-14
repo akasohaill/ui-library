@@ -1,0 +1,23 @@
+{
+  "name": "ui-library",
+  "version": "0.0.0",
+  "description": "ui library",
+  "author": "Md Sohail Ansari <121673553+akasohaill@users.noreply.github.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ui-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/ui-library.test.js",
+    "build": "parcel build src/index.js --out-dir dist"
+  },
+  "dependencies": {
+    "snabbdom": "^3.6.2"
+  }
+}
